@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* Полностью чёрный фон — основа ЭЛТ */
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  position: relative;
+
+  /* Отключаем лишнюю сглаженность, чтобы усилить "цифровой" вид */
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: unset;
+  text-rendering: geometricPrecision;
+
+  /* Предотвращаем выделение фона при двойном клике */
+  user-select: none;
+}
+
+
+
+@font-face {
+  font-family: 'Benzin';
+  src: url(./Assets/Fonts/Benzin-Semibold.woff2) format('woff2'),
+       url(./Assets/Fonts/Benzin-Semibold.woff) format('woff');
+  font-display: swap;
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Space';
+  src: url(./Assets/Fonts/Project\ Space.woff2) format('woff2'),
+       url(./Assets/Fonts/Project\ Space.woff) format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Quantum';
+  src: url(./Assets/Fonts/quantum.woff2) format('woff2'),
+       url(./Assets/Fonts/quantum.woff) format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bogeda';
+  src: url(./Assets/Fonts/BodegaScript.woff2) format('woff2'),
+       url(./Assets/Fonts/BodegaScript.woff) format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'PressStart';
+  src: url(./Assets/Fonts/PressStart2P-Regular.woff2) format('woff2'),
+       url(./Assets/Fonts/PressStart2P-Regular.woff) format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Robot';
+  src: url(./Assets/Fonts/Robtronika.woff2) format('woff2'),
+       url(./Assets/Fonts/Robtronika.woff) format('woff');
+  font-display: swap;
+}
+
+
+

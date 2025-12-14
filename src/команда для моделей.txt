@@ -1,0 +1,1 @@
+npx gltfjsx public/models/vaseStone.glb
